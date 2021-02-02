@@ -21,11 +21,11 @@ To run and test the application, please use curl, Postman or a browser:
 
 #### CURL commands
 This will show all the entries in the data base:
-curl localhost:8080/v1/address-book/all
+* curl localhost:8080/v1/address-book/all
 
 This will show uniqure entries between any two address books
-curl localhost:8080/v1/address-book/all/unique?book1=work&book2=home
+* curl localhost:8080/v1/address-book/all/unique?book1=work&book2=home
 
 Using Postman:
-http://localhost:8080/v1/address-book/add
+* http://localhost:8080/v1/address-book/add
 and set the body in the form data to: book = hobby, name = John, number = 98765432
