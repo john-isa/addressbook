@@ -12,7 +12,7 @@ This is a coding challenge that allows the saving, listing and comparison of add
 - Due to time constraints, only test available is API test using curl.
 
 ### Prerequisites
-- Java 15
+- Java 11
 
 ### Running
 The application can be run by executing the Spring Boot Jar
